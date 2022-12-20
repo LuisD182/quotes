@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import phrases from 'C:/Users/ld_22/Desktop/FSD/Academlo/React/Semana1/17-dic(entregable)/src/assets/components/phrases.json'
-import color from 'C:/Users/ld_22/Desktop/FSD/Academlo/React/Semana1/17-dic(entregable)/src/assets/components/color.json'
+import phrases from './phrases.json'
+import color from './color.json'
 
 
 const Cites = () => {
