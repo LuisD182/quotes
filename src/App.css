@@ -1,0 +1,50 @@
+#root {
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  max-height: 200px;
+  height: 200px;
+  max-width: 600px;
+  width: 600px;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  box-shadow: 5px 5px 20px 2px black;
+}
+.author{
+font-style: italic;
+font-size: medium;
+grid-column:2/4;
+
+}
+
+.mainQuote{
+  font-size: 20px;
+  grid-column: 2/6;
+}
+
+.btn-quotes{
+  font-size: 70px; 
+  padding-right: 1rem;
+}
+.btn-change{
+  font-size: 45px;
+  border: none;
+  grid-column: 5/6;
+  
+
+}
+
+
+
+
+
